@@ -7,7 +7,6 @@ import locale
 locale.setlocale(locale.LC_ALL, '')
 
 balance = 0
-test = "texst"
 
 rent = 700
 electricity = 40
