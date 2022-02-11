@@ -1,16 +1,21 @@
 # Übungsaufgaben zu Schleifen
 # Aufgabe 3c
 # @Nico Jäger
-# y = m*x + b
 
 import numpy as np
 
-m = float(input("Bitte geben sie die Steigung der Funktion an: "))
-b = float(input("Bitte geben sie den y-Achsenabschnitt der Funktion an: "))
-
+# y = m*x + b
+# Y = Dependent variable
+# M = Coefficent, Rate and Slope of line
+# X = Independent Variable
+# B = Y Intercept
 
 # Von -5,3 bis +3,5
+
+m = float(input("Bitte geben sie ihren gewünschte Steigung ein: "))
+b = float(input("Bitte geben sie den gewünschten Y-Achsen Abstand ein: "))
+print("Alle Positiven Werte: ")
 for x in np.arange(-5.3, 3.6, 0.1):
     y = m * x + b
-    print(y)
-
+    if y > 0:
+        print("f(" + str(x.__round__(1)) + ") =", y.__round__(2))
