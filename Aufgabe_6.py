@@ -1,6 +1,6 @@
+# @Nico Jäger
 # Übungsaufgaben zu Schleifen
 # Aufgabe 6
-# @Nico Jäger
 
 
 for i in range (0, 3000, 1):

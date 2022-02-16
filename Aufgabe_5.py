@@ -1,6 +1,6 @@
+# @Nico Jäger
 # Übungsaufgaben zu Schleifen
 # Aufgabe 5
-# @Nico Jäger
 
 
 inpInteger = input("Bitte geben sie ihre Ganzzahligen Positiven Zahlen ein (Seperator = lehrzeichen): ")

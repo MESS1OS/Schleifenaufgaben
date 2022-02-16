@@ -1,6 +1,6 @@
+# @Nico Jäger
 # Übungsaufgaben zu Schleifen
 # Aufgabe 3d
-# @Nico Jäger
 
 import numpy as np
 

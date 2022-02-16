@@ -1,6 +1,7 @@
+# @Nico Jäger
 # Übungsaufgaben zu Schleifen
 # Aufgabe 2
-# @Nico Jäger
+
 
 
 for temperatureF in range(0, 301, 5):
