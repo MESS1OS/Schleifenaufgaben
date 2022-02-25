@@ -9,4 +9,4 @@ integer.append(0)
 integer.pop()
 
 mean = sum(integer) / len(integer)
-print("Ihr Durchschnitt ist:", mean)
+print("Ihr Durchschnitt ist:", mean.__round__(1))

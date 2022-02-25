@@ -69,7 +69,6 @@ balance = 0
 
 month = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November",
          "Dezember"]
-cachedBalance = []
 
 rent = float(input("Wieviel Geld kostet sie Miete im Monat?: "))
 electricity = float(input("Wieviel Geld kostet sie Strom im Monat?: "))
@@ -88,7 +87,6 @@ for i in range(1, 13):
         variableExpenses = float(input("Tragen sie hier ihre Außerplanmäßigen Ausgaben ein:  "))
         variableIncome = float(input("Tragen sie hier ihre Außerplanmäßigen Einnahmen ein:  "))
 
-    balance = fixedIncome + variableIncome - fixedExpenses - variableExpenses
-    cachedBalance.append(balance)
-    print(str(month[i - 1]) + ":", locale.currency(sum(cachedBalance), grouping=True, ))
+    balance = balance + fixedIncome + variableIncome - fixedExpenses - variableExpenses
+    print(str(month[i - 1]) + ":", locale.currency(balance, grouping=True), )
 

@@ -12,6 +12,7 @@ m = float(input("Bitte geben sie ihren gewünschte Steigung ein: "))
 b = float(input("Bitte geben sie den gewünschten Y-Achsen Abstand ein: "))
 i = float(input("Bitte geben sie die gewünschte Schrittweite ein: "))
 print("Alle Positiven Werte: ")
+
 for x in np.arange(-5.3, 3.6, i):
     y = m * x + b
     if y > 0:
